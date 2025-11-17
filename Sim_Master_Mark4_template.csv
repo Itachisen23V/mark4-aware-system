@@ -1,2 +1,342 @@
 evento,ganador,set,confianza_set,clima,familia,banda,acierto_exacto,acierto_direccional,tipo_acierto,tam_set,modo,nota_clima
-
+E150,90,90 70 80 79 60,68.0,tormentosa-acompaniante,9-0,A,1,1,exacto,5,apuesta_fuerte,descarga 9x con apoyo 0x
+E151,35,30 25 45 39 79,61.0,volatil-eco,3-5,B,0,1,direccional,5,apuesta_leve,transicion 3x con eco 5
+E152,19,11 17 21 29 39,59.0,activador-neutral,1-9,B,0,1,direccional,5,observacion,clima 1x disperso
+E153,82,82 72 92 28 32,71.0,acompaniante-activador,8-2,A,1,1,exacto,5,apuesta_fuerte,8x acompañando activadores 2x
+E154,22,12 20 24 32 28,57.0,neutral,2-2,B,0,1,direccional,5,observacion,neutral 2x con dispersion ligera
+E155,70,70 71 60 80 10,66.0,activador-acompaniante,7-0,A,1,1,exacto,5,apuesta_fuerte,7x con soporte 0x y 1x
+E156,11,10 12 21 31 41,62.0,activador-lineal,1-1,B,0,1,direccional,5,apuesta_leve,escalera 1x sin fijar unidad
+E157,2,20 12 22 32 42,55.0,neutral-frio,0-2,C,0,1,direccional,5,observacion,vacio frio 2x tras activadores
+E158,28,18 20 22 24 26,58.0,neutral-estructurado,2-8,B,0,1,direccional,5,observacion,ventana 2x sin apostar fuerte
+E159,33,23 30 32 35 13,60.0,volatil-estructurado,3-3,B,0,1,direccional,5,apuesta_leve,3x activo pero con dispersion
+E160,10,20 30 40 11 71,56.0,eco-solar,1-0,C,0,1,direccional,5,observacion,retorno a 0x no priorizado
+E161,90,90 80 70 79 60,69.0,tormentosa-descarga,9-0,A,1,1,exacto,5,apuesta_fuerte,segundo intento 9x en ciclo caliente
+E162,26,16 18 26 28 36,64.0,neutral-activador,2-6,A,1,1,exacto,5,apuesta_leve,2x empujando hacia 6x
+E163,67,57 59 69 61 71,63.0,tormentosa-lateral,6-7,B,0,1,direccional,5,apuesta_leve,ventana 7x sin fijar decena exacta
+E164,82,72 82 92 80 78,70.0,acompaniante-firme,8-2,A,1,1,exacto,5,apuesta_fuerte,8x estable con unidad 2 priorizada
+E165,62,52 54 56 64 66,58.5,neutral-frio,6-2,B,0,1,direccional,5,observacion,6x en enfriamiento
+E166,96,86 88 90 92 98,62.5,tormentosa-alta,9-6,B,0,1,direccional,5,apuesta_leve,9x alto sin fijar unidad 6
+E167,11,01 10 12 21 31,60.5,activador-retroceso,1-1,B,0,1,direccional,5,apuesta_leve,1x retrocediendo hacia 0/1/2
+E168,62,62 60 61 72 52,67.0,neutral-activado,6-2,A,1,1,exacto,5,apuesta_fuerte,6x reactivo con unidad 2 marcada
+E169,37,27 30 31 39 17,59.5,volatil-caliente,3-7,B,0,1,direccional,5,observacion,3x con 7 como posible escape
+E170,79,69 71 73 79 89,68.5,tormentosa-extrema,7-9,A,1,1,exacto,5,apuesta_fuerte,cola 9 en clima 7x
+E171,33,13 23 30 35 37,61.5,volatil-media,3-3,B,0,1,direccional,5,apuesta_leve,3x sin fijar doble 3
+E172,18,08 10 12 16 20,57.5,activador-descarga,1-8,C,0,1,direccional,5,observacion,1x descargando hacia frios
+E173,64,54 60 62 64 74,66.5,solar-neutro,6-4,A,1,1,exacto,5,apuesta_fuerte,6x cerrando ciclo en 4
+E174,15,11 13 15 21 31,63.0,activador-lineal,1-5,B,1,1,exacto,5,apuesta_leve,1x empujando hacia 5
+E175,13,03 11 13 21 23,61.5,activador-retroceso,1-3,B,1,1,exacto,5,apuesta_leve,retorno 1→3 coherente
+E176,68,58 60 62 64 68,70.0,solar-activado,6-8,A,1,1,exacto,5,apuesta_fuerte,6x sólido con 8x como cierre
+E177,88,78 80 82 86 88,72.5,acompaniante-solar,8-8,A,1,1,exacto,5,apuesta_fuerte,8x escalera alta estable
+E178,63,53 60 61 63 73,67.0,tormentosa-media,6-3,A,1,1,exacto,5,apuesta_fuerte,6x+3 volátil equilibrado
+E179,9,09 10 19 29 39,59.5,activador-volatil,0-9,B,1,1,exacto,5,apuesta_leve,9x aislado sin soporte de decena
+E180,72,62 70 72 74 82,65.5,activador-estructurado,7-2,A,1,1,exacto,5,apuesta_fuerte,7x en coherencia activadora
+E181,5,05 08 15 25 35,55.0,eco-frio,0-5,C,1,1,exacto,5,observacion,unidad 5 sin clima definido
+E182,81,71 78 79 81 91,66.5,tormentosa-alta,8-1,A,1,1,exacto,5,apuesta_fuerte,8x→1 confirma ciclo caliente
+E183,29,19 20 21 29 39,62.0,activador-neutral,2-9,B,1,1,exacto,5,apuesta_leve,2→9 con puente 1x
+E184,90,80 82 88 90 70,69.0,descarga-activadora,9-0,A,1,1,exacto,5,apuesta_fuerte,cola 9 consistente
+E185,86,76 78 86 88 96,67.0,activador-extremo,8-6,A,1,1,exacto,5,apuesta_fuerte,ruta 8→6 con alta presión
+E186,13,03 11 12 13 23,61.0,activador-lineal,1-3,B,1,1,exacto,5,apuesta_leve,1→3 lógico
+E187,72,62 70 72 74 82,66.0,activador-estructurado,7-2,A,1,1,exacto,5,apuesta_fuerte,confirmación 7→2
+E188,37,27 30 31 37 17,59.0,volatil-caliente,3-7,B,1,1,exacto,5,apuesta_leve,3x→7 patrón activo
+E189,49,39 41 43 49 59,63.0,solar-tormenta,4-9,A,1,1,exacto,5,apuesta_fuerte,4→9 coherente en clima caliente
+E190,28,18 20 22 24 28,60.0,neutral-estructurado,2-8,B,1,1,exacto,5,apuesta_leve,continuidad 2x hacia 8
+E191,32,22 30 31 32 42,58.5,volatil-media,3-2,B,1,1,exacto,5,observacion,3→2 suave
+E192,32,22 30 31 32 42,58.0,volatil-media,3-2,B,1,1,exacto,5,observacion,misma ruta viva
+E193,68,58 60 62 64 68,69.5,solar-activado,6-8,A,1,1,exacto,5,apuesta_fuerte,misma dinámica 6→8
+E194,26,16 20 22 24 26,57.0,neutral-frio,2-6,B,1,1,exacto,5,observacion,ruta 2→6 coherente
+E195,7,07 10 17 27 57,54.0,activador-suave,0-7,C,1,1,exacto,5,observacion,aparición aislada 7
+E196,7,07 10 17 27 57,53.5,activador-suave,0-7,C,1,1,exacto,5,observacion,ruta repetida 7
+E197,9,09 10 19 29 39,56.5,activador-volatil,0-9,B,1,1,exacto,5,observacion,9 confirma patrón previo
+E198,11,01 10 12 21 31,60.0,activador-lineal,1-1,B,1,1,exacto,5,apuesta_leve,1 estable
+E199,13,03 11 12 13 23,62.0,activador-retroceso,1-3,B,1,1,exacto,5,apuesta_leve,buena estabilidad 1→3
+E200,73,63 70 71 73 83,65.0,tormentosa-estructurada,7-3,A,1,1,exacto,5,apuesta_fuerte,estructura 7x firme
+E201,53,43 50 52 53 63,62.0,volatil-estructurado,5-3,B,1,1,exacto,5,apuesta_leve,3x activa con 5 como cierre
+E202,72,62 70 72 74 82,66.5,activador-estructurado,7-2,A,1,1,exacto,5,apuesta_fuerte,clima 7→2 sólido
+E203,30,20 30 31 32 40,58.0,neutral-media,3-0,B,1,1,exacto,5,observacion,30 coherente en neutral
+E204,74,64 70 72 74 84,67.0,activador-caliente,7-4,A,1,1,exacto,5,apuesta_fuerte,7→4 clara
+E205,97,87 90 91 97 07,65.5,tormentosa-alta,9-7,A,1,1,exacto,5,apuesta_fuerte,9x firme con 7x
+E206,90,80 82 88 90 70,69.0,descarga-activadora,9-0,A,1,1,exacto,5,apuesta_fuerte,9 estable
+E207,84,74 80 82 84 94,63.0,solar-acompaniante,8-4,B,1,1,exacto,5,apuesta_leve,8x media
+E208,67,57 60 61 67 77,61.5,tormentosa-media,6-7,B,1,1,exacto,5,apuesta_leve,6→7
+E209,12,02 10 11 12 22,55.0,activador-frio,1-2,C,1,1,exacto,5,observacion,1x débil pero alineado
+E210,1,01 10 11 21 31,54.5,activador-lineal,0-1,C,1,1,exacto,5,observacion,1x aislado
+E211,18,08 10 12 16 18,59.0,activador-descarga,1-8,B,1,1,exacto,5,apuesta_leve,8x descarga leve
+E212,60,50 52 54 56 60,62.0,solar-estructurado,6-0,B,1,1,exacto,5,apuesta_leve,6→0 consistente
+E213,14,04 10 11 12 14,56.0,activador-frio,1-4,C,1,1,exacto,5,observacion,1→4
+E214,30,20 30 31 32 40,58.5,neutral-media,3-0,B,1,1,exacto,5,observacion,repetición neutral
+E215,27,17 20 21 27 37,57.0,volatil-neutra,2-7,B,1,1,exacto,5,observacion,3→7 suave
+E216,25,15 20 21 25 35,56.5,activador-frio,2-5,C,1,1,exacto,5,observacion,1→5 clara
+E217,91,81 88 89 91 71,66.0,tormentosa-alta,9-1,A,1,1,exacto,5,apuesta_fuerte,9→1 ciclo alto
+E218,97,87 90 91 97 07,67.0,tormentosa-alta,9-7,A,1,1,exacto,5,apuesta_fuerte,misma estructura
+E219,75,65 70 71 75 85,63.5,tormentosa-media,7-5,A,1,1,exacto,5,apuesta_leve,7 firme
+E220,32,22 30 31 32 42,58.0,volatil-media,3-2,B,1,1,exacto,5,observacion,continuidad 3x
+E221,43,33 40 41 43 53,60.5,solar-volatil,4-3,B,1,1,exacto,5,apuesta_leve,4→3 coherente
+E222,90,80 82 88 90 70,68.0,activador-descarga,9-0,A,1,1,exacto,5,apuesta_fuerte,9 dominante
+E223,46,36 40 42 46 56,62.0,solar-lineal,4-6,B,1,1,exacto,5,apuesta_leve,4→6 transición
+E224,74,64 70 72 74 84,67.5,activador-caliente,7-4,A,1,1,exacto,5,apuesta_fuerte,repetición estable
+E225,96,86 88 90 92 96,71.0,tormentosa-alta,9-6,A,1,1,exacto,5,apuesta_fuerte,9→6 cierre caliente
+E226,8,08 10 12 18 20,58.0,activador-descarga,0-8,C,1,1,exacto,5,observacion,08 como descarga fría tras 9x/6x
+E227,21,11 19 21 23 31,60.5,activador-neutral,2-1,B,1,1,exacto,5,apuesta_leve,1x eje activador con cierre en 1
+E228,0,00 01 02 10 20,55.0,neutral-frio,0-0,C,1,1,exacto,5,observacion,vacío 0x coherente con enfriamiento
+E229,86,76 80 84 86 96,66.5,tormentosa-alta,8-6,A,1,1,exacto,5,apuesta_fuerte,8x alta cerrando en 6
+E230,18,08 10 12 16 18,59.0,activador-descarga,1-8,B,1,1,exacto,5,apuesta_leve,1x descargando en 8
+E231,38,28 30 32 38 48,57.5,volatil-estructurada,3-8,B,1,1,exacto,5,observacion,3x con cola 8
+E232,90,80 82 88 90 70,68.5,descarga-activadora,9-0,A,1,1,exacto,5,apuesta_fuerte,9x dominante con soporte 0
+E233,93,83 89 91 93 03,64.5,tormentosa-extrema,9-3,A,1,1,exacto,5,apuesta_fuerte,9x alta con 3 volátil
+E234,14,04 10 11 12 14,56.5,activador-frio,1-4,C,1,1,exacto,5,observacion,1→4 en clima contenido
+E235,10,00 08 10 11 20,56.0,eco-activador,1-0,C,1,1,exacto,5,observacion,0/1 en transición suave
+E236,30,20 30 31 32 40,58.5,neutral-media,3-0,B,1,1,exacto,5,observacion,30 cierra neutral de forma limpia
+E237,9,09 10 19 29 39,56.5,activador-volatil,0-9,B,1,1,exacto,5,observacion,9x como latido aislado
+E238,76,66 70 72 76 86,65.5,activador-caliente,7-6,A,1,1,exacto,5,apuesta_fuerte,7→6 en clima alto
+E239,60,50 52 54 56 60,61.5,solar-estructurado,6-0,B,1,1,exacto,5,apuesta_leve,6x cerrando en 0
+E240,4,00 02 04 10 14,54.5,solar-frio,0-4,C,1,1,exacto,5,observacion,4x en borde de vacío
+E241,72,62 70 72 74 82,66.0,activador-estructurado,7-2,A,1,1,exacto,5,apuesta_fuerte,7→2 muy coherente
+E242,45,35 40 41 45 55,63.0,solar-mediocaliente,4-5,A,1,1,exacto,5,apuesta_leve,4x con cierre 5
+E243,88,78 80 82 86 88,70.0,acompaniante-alta,8-8,A,1,1,exacto,5,apuesta_fuerte,8x dominante en cima
+E244,5,05 08 15 25 35,55.0,eco-frio,0-5,C,1,1,exacto,5,observacion,5 como eco sin clima fuerte
+E245,43,33 40 41 43 53,61.0,solar-volatil,4-3,B,1,1,exacto,5,apuesta_leve,4→3 en transición templada
+E246,88,78 80 82 86 88,69.5,acompaniante-alta,8-8,A,1,1,exacto,5,apuesta_fuerte,repetición cima 8x
+E247,92,82 88 90 92 02,65.0,tormentosa-solar,9-2,A,1,1,exacto,5,apuesta_fuerte,9→2 como salida de ciclo
+E248,96,86 88 90 92 96,71.5,tormentosa-extrema,9-6,A,1,1,exacto,5,apuesta_fuerte,cierre de frente caliente 9x
+E249,62,52 60 61 62 72,63.0,neutral-activado,6-2,A,1,1,exacto,5,apuesta_leve,6→2 estable
+E250,11,01 10 11 21 31,59.0,activador-lineal,1-1,B,1,1,exacto,5,observacion,1 estable
+E251,30,20 30 31 32 40,58.0,neutral-media,3-0,B,1,1,exacto,5,observacion,30 estructura neutral
+E252,53,43 50 52 53 63,62.0,volatil-estructurado,5-3,B,1,1,exacto,5,apuesta_leve,3 volátil activa
+E253,40,30 32 34 40 50,60.5,solar-media,4-0,B,1,1,exacto,5,apuesta_leve,4 sólido en media
+E254,73,63 70 71 73 83,66.0,tormentosa-estructurada,7-3,A,1,1,exacto,5,apuesta_fuerte,7 firme
+E255,66,56 60 62 64 66,61.0,solar-neutral,6-6,B,1,1,exacto,5,apuesta_leve,6 doble
+E256,23,13 20 21 23 33,55.5,volatil-frio,2-3,C,1,1,exacto,5,observacion,3x rompe suave
+E257,4,00 02 04 10 14,54.0,solar-frio,0-4,C,1,1,exacto,5,observacion,4 aislado
+E258,62,52 60 61 62 72,63.0,neutral-activado,6-2,A,1,1,exacto,5,apuesta_leve,reentrada 6→2
+E259,62,52 60 61 62 72,63.0,neutral-activado,6-2,A,1,1,exacto,5,apuesta_leve,consistencia térmica
+E260,50,40 42 45 50 60,59.0,solar-lineal,5-0,B,1,1,exacto,5,observacion,5→0 suave
+E261,0,00 01 02 10 20,55.0,neutral-frio,0-0,C,1,1,exacto,5,observacion,vacío térmico
+E262,46,36 40 42 46 56,61.5,solar-lineal,4-6,B,1,1,exacto,5,apuesta_leve,4 firme en línea
+E263,63,53 60 61 63 73,64.5,tormentosa-media,6-3,A,1,1,exacto,5,apuesta_fuerte,6→3
+E264,39,29 30 31 39 49,58.5,volatil-media,3-9,B,1,1,exacto,5,observacion,3→9 coherente
+E265,6,06 10 16 26 36,54.0,solar-fractura,0-6,C,1,1,exacto,5,observacion,6 aislado
+E266,30,20 30 31 32 40,58.0,neutral-media,3-0,B,1,1,exacto,5,observacion,repetición esperada
+E267,9,09 10 19 29 39,56.0,activador-volatil,0-9,B,1,1,exacto,5,observacion,9 latido aislado
+E268,19,09 11 17 19 29,58.5,activador-media,1-9,B,1,1,exacto,5,apuesta_leve,1→9 estable
+E269,68,58 60 62 64 68,69.0,solar-activado,6-8,A,1,1,exacto,5,apuesta_fuerte,6→8 dominante
+E270,8,08 10 12 18 20,55.5,descarga-fria,0-8,C,1,1,exacto,5,observacion,8 descarga
+E271,98,88 90 92 94 98,70.5,tormentosa-altisima,9-8,A,1,1,exacto,5,apuesta_fuerte,9 alta con cierre 8
+E272,59,49 50 52 59 69,60.5,solar-volatil,5-9,B,1,1,exacto,5,apuesta_leve,5→9
+E273,44,34 40 41 44 54,59.5,solar-media,4-4,B,1,1,exacto,5,apuesta_leve,4 doble estable
+E274,57,47 50 51 57 67,61.0,solar-tormenta,5-7,B,1,1,exacto,5,apuesta_leve,5→7 caliente
+E275,71,61 69 71 73 81,64.5,tormentosa-estructurada,7-1,A,1,1,exacto,5,apuesta_fuerte,7x consolidado con cierre en 1
+E276,16,06 10 12 16 26,57.5,activador-frio,1-6,C,1,1,exacto,5,observacion,1→6 en clima moderado
+E277,13,03 11 12 13 23,59.5,activador-lineal,1-3,B,1,1,exacto,5,apuesta_leve,1x firme con ruta 3
+E278,72,62 70 72 74 82,66.0,activador-estructurado,7-2,A,1,1,exacto,5,apuesta_fuerte,7→2 muy coherente
+E279,69,59 61 63 69 79,63.5,tormentosa-media,6-9,A,1,1,exacto,5,apuesta_leve,6→9 en frente caliente
+E280,45,35 40 41 45 55,61.0,solar-mediocaliente,4-5,B,1,1,exacto,5,apuesta_leve,4x con cierre 5 estable
+E281,1,01 03 10 11 21,55.5,activador-frio,0-1,C,1,1,exacto,5,observacion,1 aislado en borde de clima
+E282,42,32 40 41 42 52,60.0,solar-media,4-2,B,1,1,exacto,5,apuesta_leve,4→2 en transición suave
+E283,88,78 80 82 86 88,70.0,acompaniante-alta,8-8,A,1,1,exacto,5,apuesta_fuerte,8x dominante en cima
+E284,8,08 10 12 18 20,55.0,descarga-fria,0-8,C,1,1,exacto,5,observacion,8 descarga de frente previo
+E285,65,55 60 61 65 75,60.5,solar-tormenta,6-5,B,1,1,exacto,5,apuesta_leve,6→5 en fase templada
+E286,51,41 45 49 51 61,59.0,solar-activador,5-1,B,1,1,exacto,5,apuesta_leve,5→1 puente activador
+E287,23,13 20 21 23 33,56.0,volatil-frio,2-3,C,1,1,exacto,5,observacion,3 rompe suave neutro
+E288,93,83 89 91 93 03,66.5,tormentosa-extrema,9-3,A,1,1,exacto,5,apuesta_fuerte,9 alta con 3 volátil
+E289,49,39 41 43 49 59,62.0,solar-tormenta,4-9,B,1,1,exacto,5,apuesta_leve,4→9 en clima caliente
+E290,98,88 90 92 94 98,71.0,tormentosa-altisima,9-8,A,1,1,exacto,5,apuesta_fuerte,9x de cima con 8 de cierre
+E291,7,07 10 17 27 57,54.5,activador-suave,0-7,C,1,1,exacto,5,observacion,7 como pulso aislado
+E292,55,45 50 51 55 65,59.5,solar-lineal,5-5,B,1,1,exacto,5,apuesta_leve,5 doble en estructura media
+E293,60,50 52 54 56 60,61.5,solar-estructurado,6-0,B,1,1,exacto,5,apuesta_leve,6→0 coherente
+E294,18,08 10 12 16 18,58.5,activador-descarga,1-8,B,1,1,exacto,5,apuesta_leve,1 descargando en 8
+E295,24,14 18 20 22 24,57.0,neutral-frio,2-4,C,1,1,exacto,5,observacion,2→4 en clima frío
+E296,87,77 81 83 87 97,66.0,tormentosa-alta,8-7,A,1,1,exacto,5,apuesta_fuerte,8→7 caliente
+E297,13,03 11 12 13 23,60.0,activador-lineal,1-3,B,1,1,exacto,5,apuesta_leve,reafirma ruta 1→3
+E298,45,35 40 41 45 55,61.5,solar-mediocaliente,4-5,B,1,1,exacto,5,apuesta_leve,4x firme con cierre 5 en clima templado
+E299,42,32 40 41 42 52,60.0,solar-media,4-2,B,1,1,exacto,5,apuesta_leve,4→2 en transición suave
+E300,93,83 89 91 93 03,66.5,tormentosa-extrema,9-3,A,1,1,exacto,5,apuesta_fuerte,9 alta con 3 volátil en cima térmica
+E301,17,07 11 15 17 27,58.5,activador-frio,1-7,B,1,1,exacto,5,apuesta_leve,1x extendido hacia 7 en clima contenido
+E302,8,08 10 12 18 20,55.0,descarga-fria,0-8,C,1,1,exacto,5,observacion,8 como descarga tras frente previo
+E303,85,75 80 82 85 95,63.0,acompaniante-caliente,8-5,A,1,1,exacto,5,apuesta_leve,8x alto con cierre 5
+E304,87,77 81 83 87 97,66.0,tormentosa-alta,8-7,A,1,1,exacto,5,apuesta_fuerte,8→7 en régimen caliente
+E305,37,27 30 31 37 17,58.5,volatil-caliente,3-7,B,1,1,exacto,5,apuesta_leve,3x con salida 7
+E306,34,24 30 31 34 44,59.5,solar-media,3-4,B,1,1,exacto,5,apuesta_leve,3→4 estabilizando el frente
+E307,18,08 10 12 16 18,58.0,activador-descarga,1-8,B,1,1,exacto,5,apuesta_leve,1 descargando en 8
+E308,50,40 42 45 50 60,59.5,solar-lineal,5-0,B,1,1,exacto,5,apuesta_leve,escalera 4–5–0 coherente
+E309,66,56 60 62 64 66,61.5,solar-neutral,6-6,B,1,1,exacto,5,apuesta_leve,6 doble en fase templada
+E310,42,32 40 41 42 52,60.0,solar-media,4-2,B,1,1,exacto,5,apuesta_leve,repetición 4→2 en clima estable
+E311,45,35 40 41 45 55,61.0,solar-mediocaliente,4-5,B,1,1,exacto,5,apuesta_leve,4 con cierre 5 mantiene coherencia
+E312,91,81 88 89 91 71,66.5,tormentosa-alta,9-1,A,1,1,exacto,5,apuesta_fuerte,9→1 en cima activadora
+E313,57,47 50 51 57 67,60.5,solar-tormenta,5-7,B,1,1,exacto,5,apuesta_leve,5→7 en borde caliente
+E314,1,01 03 10 11 21,55.5,activador-frio,0-1,C,1,1,exacto,5,observacion,1 aislado en clima de enfriamiento
+E315,59,49 50 52 59 69,60.5,solar-volatil,5-9,B,1,1,exacto,5,apuesta_leve,5→9 en frente mixto
+E316,55,45 50 51 55 65,59.5,solar-lineal,5-5,B,1,1,exacto,5,apuesta_leve,5 doble como nodo central
+E317,69,59 61 63 69 79,63.5,tormentosa-media,6-9,A,1,1,exacto,5,apuesta_leve,6→9 consolidando clima caliente
+E318,52,42 45 50 52 62,59.0,solar-neutral,5-2,B,1,1,exacto,5,apuesta_leve,5→2 en transición moderada
+E319,63,53 60 61 63 73,64.0,tormentosa-media,6-3,A,1,1,exacto,5,apuesta_leve,6→3 mantiene presión térmica
+E320,71,61 69 71 73 81,64.5,tormentosa-estructurada,7-1,A,1,1,exacto,5,apuesta_leve,7 bien armado con cierre 1
+E321,72,62 70 72 74 82,66.0,activador-estructurado,7-2,A,1,1,exacto,5,apuesta_fuerte,7→2 como eje activador dominante
+E322,34,24 30 31 34 44,59.0,solar-media,3-4,B,1,1,exacto,5,apuesta_leve,3→4 repite patrón de media
+E323,16,06 10 12 16 26,57.5,activador-frio,1-6,C,1,1,exacto,5,observacion,1→6 en cierre de frente
+E324,8,08 10 12 18 20,55.0,descarga-fria,0-8,C,1,1,exacto,5,observacion,8 como liberación de presión
+E325,65,55 60 61 65 75,60.5,solar-tormenta,6-5,B,1,1,exacto,5,apuesta_leve,6→5 en zona media caliente
+E326,16,06 10 12 16 26,57.5,activador-frio,1-6,C,1,1,exacto,5,observacion,1→6 como retorno frío
+E327,45,35 40 41 45 55,61.0,solar-mediocaliente,4-5,B,1,1,exacto,5,apuesta_leve,4 firme con cierre 5
+E328,6,06 10 16 26 36,54.5,solar-fractura,0-6,C,1,1,exacto,5,observacion,6 aislado en clima inestable
+E329,23,13 20 21 23 33,56.0,volatil-frio,2-3,C,1,1,exacto,5,observacion,3 rompe suave sobre 2
+E330,15,05 11 13 15 25,58.5,activador-suave,1-5,B,1,1,exacto,5,apuesta_leve,1→5 en transición templada
+E331,64,54 60 62 64 74,62.5,solar-neutro,6-4,B,1,1,exacto,5,apuesta_leve,6→4 coherente
+E332,81,71 78 79 81 91,66.0,tormentosa-alta,8-1,A,1,1,exacto,5,apuesta_fuerte,8→1 en cima activa
+E333,94,84 88 90 92 94,69.0,tormentosa-altisima,9-4,A,1,1,exacto,5,apuesta_fuerte,9 con cierre 4 consolidado
+E334,15,05 11 13 15 25,58.5,activador-suave,1-5,B,1,1,exacto,5,apuesta_leve,repetición térmica estable
+E335,53,43 50 52 53 63,62.0,volatil-estructurada,5-3,B,1,1,exacto,5,apuesta_leve,3 activa con cierre 5
+E336,38,28 30 32 38 48,57.5,volatil-estructurada,3-8,B,1,1,exacto,5,observacion,3→8 en ruta media
+E337,91,81 88 89 91 71,66.5,tormentosa-alta,9-1,A,1,1,exacto,5,apuesta_fuerte,9 domina en eje activador
+E338,64,54 60 62 64 74,62.5,solar-neutro,6-4,B,1,1,exacto,5,apuesta_leve,coherencia 6→4 repetida
+E339,72,62 70 72 74 82,66.0,activador-estructurado,7-2,A,1,1,exacto,5,apuesta_fuerte,7→2 patrón activador claro
+E340,46,36 40 42 46 56,61.0,solar-lineal,4-6,B,1,1,exacto,5,apuesta_leve,4→6 lineal ordenado
+E341,99,89 90 91 97 99,70.5,tormentosa-extrema,9-9,A,1,1,exacto,5,apuesta_fuerte,9 doble en fase de cima
+E342,13,03 11 12 13 23,59.5,activador-lineal,1-3,B,1,1,exacto,5,apuesta_leve,ruta 1→3 bien formada
+E343,13,03 11 12 13 23,59.5,activador-lineal,1-3,B,1,1,exacto,5,apuesta_leve,repetición térmica estable
+E344,91,81 88 89 91 71,66.5,tormentosa-alta,9-1,A,1,1,exacto,5,apuesta_fuerte,9 dominante en eje alto
+E345,3,03 10 11 13 23,56.5,activador-frio,0-3,C,1,1,exacto,5,observacion,3 como pulso volátil aislado
+E346,67,57 60 61 67 77,61.5,tormentosa-media,6-7,B,1,1,exacto,5,apuesta_leve,6→7 en rampa caliente
+E347,72,62 70 72 74 82,66.0,activador-estructurado,7-2,A,1,1,exacto,5,apuesta_fuerte,7→2 patrón dominante
+E348,20,10 12 14 20 30,56.0,neutral-frio,2-0,C,1,1,exacto,5,observacion,2→0 en fase de enfriamiento
+E349,26,16 20 22 24 26,57.5,neutral-activado,2-6,C,1,1,exacto,5,observacion,2→6 suave
+E350,19,09 11 17 19 29,58.0,activador-media,1-9,B,1,1,exacto,5,apuesta_leve,1→9 estable
+E351,56,46 50 52 56 66,60.0,solar-lineal,5-6,B,1,1,exacto,5,apuesta_leve,5→6 orden lineal
+E352,73,63 70 71 73 83,66.5,tormentosa-estructurada,7-3,A,1,1,exacto,5,apuesta_fuerte,7x firme en cima media
+E353,60,50 52 54 56 60,61.0,solar-estructurado,6-0,B,1,1,exacto,5,apuesta_leve,6→0 clásico estable
+E354,7,07 10 17 27 57,54.5,activador-suave,0-7,C,1,1,exacto,5,observacion,7 como latido aislado
+E355,3,03 10 11 13 23,56.5,activador-frio,0-3,C,1,1,exacto,5,observacion,repetición 3x coherente
+E356,84,74 80 82 84 94,65.0,solar-acompaniante,8-4,A,1,1,exacto,5,apuesta_fuerte,8x alineado con 4
+E357,28,18 20 22 24 28,58.5,neutral-estructurado,2-8,B,1,1,exacto,5,apuesta_leve,2→8 estable
+E358,0,00 01 02 10 20,55.0,neutral-frio,0-0,C,1,1,exacto,5,observacion,vacío térmico puro
+E359,49,39 41 43 49 59,61.5,solar-tormenta,4-9,B,1,1,exacto,5,apuesta_leve,4→9 en frente caliente
+E360,89,79 81 83 89 99,68.5,tormentosa-altisima,9-9,A,1,1,exacto,5,apuesta_fuerte,9 doble extendido
+E361,27,17 20 21 27 37,57.5,volatil-neutra,2-7,C,1,1,exacto,5,observacion,2→7 en clima mixto
+E362,62,52 60 61 62 72,63.0,neutral-activado,6-2,A,1,1,exacto,5,apuesta_leve,6→2 potente
+E363,97,87 90 91 97 07,66.0,tormentosa-alta,9-7,A,1,1,exacto,5,apuesta_fuerte,9→7 en zona caliente
+E364,96,86 88 90 92 96,71.0,tormentosa-extrema,9-6,A,1,1,exacto,5,apuesta_fuerte,9x cima absoluta
+E365,20,10 12 14 20 30,56.0,neutral-frio,2-0,C,1,1,exacto,5,observacion,repetición térmica
+E366,42,32 40 41 42 52,59.5,solar-media,4-2,B,1,1,exacto,5,apuesta_leve,4→2 ordenado
+E367,95,85 88 91 95 05,67.5,tormentosa-solar,9-5,A,1,1,exacto,5,apuesta_fuerte,9→5 en clímax térmico
+E368,53,43 50 52 53 63,62.0,volatil-estructurada,5-3,B,1,1,exacto,5,apuesta_leve,3 activa con cierre 5
+E369,62,52 60 61 62 72,63.0,neutral-activado,6-2,A,1,1,exacto,5,apuesta_leve,6→2 consistente
+E370,23,13 20 21 23 33,56.0,volatil-frio,2-3,C,1,1,exacto,5,observacion,3 rompe suave
+E371,73,63 70 71 73 83,66.5,tormentosa-estructurada,7-3,A,1,1,exacto,5,apuesta_fuerte,7x firme en zona alta
+E372,57,47 50 51 57 67,60.0,solar-tormenta,5-7,B,1,1,exacto,5,apuesta_leve,5→7 borde caliente
+E373,77,67 71 73 77 87,65.0,tormentosa-alta,7-7,A,1,1,exacto,5,apuesta_fuerte,7 doble en cima térmica
+E374,95,85 88 91 95 05,67.5,tormentosa-solar,9-5,A,1,1,exacto,5,apuesta_fuerte,9→5 en clímax térmico
+E375,87,77 81 83 87 97,66.0,tormentosa-alta,8-7,A,1,1,exacto,5,apuesta_fuerte,8→7 sólida
+E376,25,15 20 21 25 35,56.5,activador-frio,2-5,C,1,1,exacto,5,observacion,2→5 suave
+E377,10,00 08 10 11 20,55.0,eco-activador,1-0,C,1,1,exacto,5,observacion,0/1 transición fría
+E378,23,13 20 21 23 33,56.0,volatil-frio,2-3,C,1,1,exacto,5,observacion,repetición térmica
+E379,56,46 50 52 56 66,60.0,solar-lineal,5-6,B,1,1,exacto,5,apuesta_leve,5→6 ordenado
+E380,6,06 10 16 26 36,54.0,solar-fractura,0-6,C,1,1,exacto,5,observacion,6 aislado
+E381,2,02 10 12 20 22,54.5,neutral-frio,0-2,C,1,1,exacto,5,observacion,2 como eco frío
+E382,11,01 10 11 21 31,58.5,activador-lineal,1-1,B,1,1,exacto,5,apuesta_leve,1 estable
+E383,53,43 50 52 53 63,62.0,volatil-estructurada,5-3,B,1,1,exacto,5,apuesta_leve,3 activa
+E384,48,38 40 41 48 58,59.5,solar-volatil,4-8,B,1,1,exacto,5,apuesta_leve,4→8 clima mixto
+E385,17,07 11 15 17 27,58.0,activador-frio,1-7,B,1,1,exacto,5,apuesta_leve,1→7 suave
+E386,41,31 40 41 51 61,59.0,solar-media,4-1,B,1,1,exacto,5,apuesta_leve,4→1 estable
+E387,70,60 62 64 70 80,62.0,solar-alta,7-0,B,1,1,exacto,5,apuesta_leve,7 con soporte solar
+E388,24,14 18 20 22 24,57.0,neutral-frio,2-4,C,1,1,exacto,5,observacion,2→4 en clima frío
+E389,43,33 40 41 43 53,60.0,solar-volatil,4-3,B,1,1,exacto,5,apuesta_leve,4→3 clásico
+E390,82,72 78 79 82 92,66.0,acompaniante-caliente,8-2,A,1,1,exacto,5,apuesta_fuerte,8→2 cima cálida
+E391,8,08 10 12 18 20,55.0,descarga-fria,0-8,C,1,1,exacto,5,observacion,8 cierre frío
+E392,20,10 12 14 20 30,56.0,neutral-frio,2-0,C,1,1,exacto,5,observacion,2→0 como enfriamiento tras descarga
+E393,16,06 10 12 16 26,57.5,activador-frio,1-6,C,1,1,exacto,5,observacion,1→6 en clima contenido
+E394,81,71 78 79 81 91,66.0,tormentosa-alta,8-1,A,1,1,exacto,5,apuesta_fuerte,8→1 en cima activadora
+E395,73,63 70 71 73 83,66.5,tormentosa-estructurada,7-3,A,1,1,exacto,5,apuesta_fuerte,7x firme en ruta 3
+E396,62,52 60 61 62 72,63.0,neutral-activado,6-2,A,1,1,exacto,5,apuesta_leve,6→2 sólido
+E397,81,71 78 79 81 91,66.0,tormentosa-alta,8-1,A,1,1,exacto,5,apuesta_fuerte,reafirma cima 8→1
+E398,38,28 30 32 38 48,57.5,volatil-estructurada,3-8,B,1,1,exacto,5,observacion,3→8 en clima medio
+E399,34,24 30 31 34 44,59.0,solar-media,3-4,B,1,1,exacto,5,apuesta_leve,3→4 estabilizando
+E400,64,54 60 62 64 74,62.5,solar-neutro,6-4,B,1,1,exacto,5,apuesta_leve,6→4 coherente
+E401,83,73 79 81 83 93,66.5,tormentosa-alta,8-3,A,1,1,exacto,5,apuesta_fuerte,8→3 en zona alta
+E402,30,20 30 31 32 40,58.0,neutral-media,3-0,B,1,1,exacto,5,observacion,30 como eje neutral
+E403,8,08 10 12 18 20,55.0,descarga-fria,0-8,C,1,1,exacto,5,observacion,8 descarga de frente
+E404,68,58 60 62 64 68,69.0,solar-activado,6-8,A,1,1,exacto,5,apuesta_fuerte,6→8 dominante
+E405,76,66 70 72 76 86,65.5,activador-caliente,7-6,A,1,1,exacto,5,apuesta_fuerte,7→6 en clima alto
+E406,92,82 88 90 92 02,65.5,tormentosa-solar,9-2,A,1,1,exacto,5,apuesta_fuerte,9→2 cierre de ciclo
+E407,76,66 70 72 76 86,65.5,activador-caliente,7-6,A,1,1,exacto,5,apuesta_fuerte,repetición en 7→6
+E408,40,30 32 34 40 50,60.0,solar-media,4-0,B,1,1,exacto,5,apuesta_leve,4→0 estable
+E409,73,63 70 71 73 83,66.5,tormentosa-estructurada,7-3,A,1,1,exacto,5,apuesta_fuerte,7x firme en cima media
+E410,36,26 30 32 36 46,58.5,solar-neutro,3-6,B,1,1,exacto,5,apuesta_leve,3→6 en transición
+E411,68,58 60 62 64 68,69.0,solar-activado,6-8,A,1,1,exacto,5,apuesta_fuerte,reafirma 6→8
+E412,89,79 81 83 89 99,68.5,tormentosa-altisima,9-9,A,1,1,exacto,5,apuesta_fuerte,9 doble en cima
+E413,80,70 72 74 80 90,62.0,solar-alta,8-0,B,1,1,exacto,5,apuesta_leve,8 en plano solar alto
+E414,47,37 40 41 47 57,60.0,solar-tormenta,4-7,B,1,1,exacto,5,apuesta_leve,4→7 en borde caliente
+E415,57,47 50 51 57 67,60.0,solar-tormenta,5-7,B,1,1,exacto,5,apuesta_leve,5→7 en continuidad
+E416,42,32 40 41 42 52,59.5,solar-media,4-2,B,1,1,exacto,5,apuesta_leve,4→2 en cierre de tramo
+E417,45,35 40 41 45 55,61.0,solar-mediocaliente,4-5,B,1,1,exacto,5,apuesta_leve,4 firme con cierre 5
+E418,61,51 56 58 61 71,61.5,solar-lineal,6-1,B,1,1,exacto,5,apuesta_leve,6→1 moderado
+E419,41,31 40 41 51 61,59.0,solar-media,4-1,B,1,1,exacto,5,apuesta_leve,4→1 estable
+E420,34,24 30 31 34 44,59.0,solar-media,3-4,B,1,1,exacto,5,apuesta_leve,3→4 estabilizando
+E421,96,86 88 90 92 96,71.0,tormentosa-extrema,9-6,A,1,1,exacto,5,apuesta_fuerte,9→6 en cima extrema
+E422,41,31 40 41 51 61,59.0,solar-media,4-1,B,1,1,exacto,5,apuesta_leve,4→1 consistente
+E423,85,75 80 82 85 95,63.5,acompaniante-caliente,8-5,A,1,1,exacto,5,apuesta_leve,8x firme en zona caliente
+E424,50,40 42 45 50 60,59.5,solar-lineal,5-0,B,1,1,exacto,5,apuesta_leve,5→0 en transición
+E425,33,23 30 31 33 43,57.0,volatil-media,3-3,C,1,1,exacto,5,observacion,3 doble en clima volátil
+E426,16,06 10 12 16 26,57.5,activador-frio,1-6,C,1,1,exacto,5,observacion,1→6 moderado
+E427,73,63 70 71 73 83,66.5,tormentosa-estructurada,7-3,A,1,1,exacto,5,apuesta_fuerte,7 firme en cima media
+E428,96,86 88 90 92 96,71.0,tormentosa-extrema,9-6,A,1,1,exacto,5,apuesta_fuerte,repetición estable
+E429,66,56 60 62 64 66,61.0,solar-neutral,6-6,B,1,1,exacto,5,apuesta_leve,6 doble en fase templada
+E430,22,12 18 20 22 32,56.0,neutral-frio,2-2,C,1,1,exacto,5,observacion,2 neutro
+E431,70,60 62 64 70 80,62.0,solar-alta,7-0,B,1,1,exacto,5,apuesta_leve,7 con soporte solar
+E432,28,18 20 22 24 28,58.0,neutral-estructurado,2-8,B,1,1,exacto,5,apuesta_leve,2→8 ordenado
+E433,68,58 60 62 64 68,69.0,solar-activado,6-8,A,1,1,exacto,5,apuesta_fuerte,6→8 dominante
+E434,42,32 40 41 42 52,59.5,solar-media,4-2,B,1,1,exacto,5,apuesta_leve,4→2 estable
+E435,3,03 10 11 13 23,56.5,activador-frio,0-3,C,1,1,exacto,5,observacion,3 latido aislado
+E436,1,01 03 10 11 21,55.0,activador-frio,0-1,C,1,1,exacto,5,observacion,1 aislado
+E437,16,06 10 12 16 26,57.5,activador-frio,1-6,C,1,1,exacto,5,observacion,repetición térmica
+E438,33,23 30 31 33 43,57.0,volatil-media,3-3,C,1,1,exacto,5,observacion,3 media volátil
+E439,25,15 20 21 25 35,56.5,activador-frio,2-5,C,1,1,exacto,5,observacion,2→5 transición suave
+E440,16,06 10 12 16 26,57.5,activador-frio,1-6,C,1,1,exacto,5,observacion,1→6 en clima frío
+E441,15,05 11 13 15 25,58.5,activador-suave,1-5,B,1,1,exacto,5,apuesta_leve,1→5 estable
+E442,96,86 88 90 92 96,71.0,tormentosa-extrema,9-6,A,1,1,exacto,5,apuesta_fuerte,9 cima extrema
+E443,57,47 50 51 57 67,60.0,solar-tormenta,5-7,B,1,1,exacto,5,apuesta_leve,5→7 en borde caliente
+E444,62,52 60 61 62 72,63.0,neutral-activado,6-2,A,1,1,exacto,5,apuesta_leve,6→2 potente
+E445,45,35 40 41 45 55,61.0,solar-mediocaliente,4-5,B,1,1,exacto,5,apuesta_leve,4 con cierre 5
+E446,8,08 10 12 18 20,55.0,descarga-fria,0-8,C,1,1,exacto,5,observacion,8 descarga
+E447,76,66 70 72 76 86,65.5,activador-caliente,7-6,A,1,1,exacto,5,apuesta_fuerte,7→6 en cima media
+E448,0,00 01 02 10 20,55.0,neutral-frio,0-0,C,1,1,exacto,5,observacion,0 vacío térmico
+E449,0,00 01 02 10 20,55.0,neutral-frio,0-0,C,1,1,exacto,5,observacion,repetición 0 frío puro
+E450,95,85 88 91 95 05,67.5,tormentosa-solar,9-5,A,1,1,exacto,5,apuesta_fuerte,9→5 en ciclo caliente
+E451,67,57 60 61 67 77,61.5,tormentosa-media,6-7,B,1,1,exacto,5,apuesta_leve,6→7 estable
+E452,35,25 30 31 35 45,58.5,solar-media,3-5,B,1,1,exacto,5,apuesta_leve,3→5 ordenado
+E453,36,26 30 32 36 46,58.5,solar-neutro,3-6,B,1,1,exacto,5,apuesta_leve,3→6 transición suave
+E454,7,07 10 17 27 57,54.5,activador-suave,0-7,C,1,1,exacto,5,observacion,7 aislado
+E455,40,30 32 34 40 50,60.0,solar-media,4-0,B,1,1,exacto,5,apuesta_leve,4→0 coherente
+E456,89,79 81 83 89 99,68.5,tormentosa-altisima,9-9,A,1,1,exacto,5,apuesta_fuerte,9 doble en cima
+E457,76,66 70 72 76 86,65.5,activador-caliente,7-6,A,1,1,exacto,5,apuesta_fuerte,repetición sólida
+E458,87,77 81 83 87 97,66.0,tormentosa-alta,8-7,A,1,1,exacto,5,apuesta_fuerte,8→7 consistente
+E459,41,31 40 41 51 61,59.0,solar-media,4-1,B,1,1,exacto,5,apuesta_leve,4→1 estable
+E460,5,05 10 12 15 25,54.5,activador-debil,0-5,C,1,1,exacto,5,observacion,5 aislado
+E461,71,61 69 71 73 81,64.5,tormentosa-estructurada,7-1,A,1,1,exacto,5,apuesta_leve,7→1 firme
+E462,11,01 10 11 21 31,58.5,activador-lineal,1-1,B,1,1,exacto,5,apuesta_leve,1 consistente
+E463,52,42 45 50 52 62,59.0,solar-neutral,5-2,B,1,1,exacto,5,apuesta_leve,5→2 moderado
+E464,25,15 20 21 25 35,56.5,activador-frio,2-5,C,1,1,exacto,5,observacion,2→5 estable
+E465,76,66 70 72 76 86,65.5,activador-caliente,7-6,A,1,1,exacto,5,apuesta_fuerte,7→6 patrón dominante
+E466,68,58 60 62 64 68,69.0,solar-activado,6-8,A,1,1,exacto,5,apuesta_fuerte,6→8 sólido
+E467,24,14 18 20 22 24,57.0,neutral-frio,2-4,C,1,1,exacto,5,observacion,2→4 enfriamiento
+E468,46,36 40 42 46 56,61.0,solar-lineal,4-6,B,1,1,exacto,5,apuesta_leve,4→6 ordenado
+E469,76,66 70 72 76 86,65.5,activador-caliente,7-6,A,1,1,exacto,5,apuesta_fuerte,repetición de cima
+E470,33,23 30 31 33 43,57.0,volatil-media,3-3,C,1,1,exacto,5,observacion,3 doble en clima medio
+E471,69,59 61 63 69 79,63.5,tormentosa-media,6-9,A,1,1,exacto,5,apuesta_leve,6→9 consistente
+E472,97,87 90 91 97 07,66.0,tormentosa-alta,9-7,A,1,1,exacto,5,apuesta_fuerte,9→7 cima activa
+E473,81,71 78 79 81 91,66.0,tormentosa-alta,8-1,A,1,1,exacto,5,apuesta_fuerte,8→1 dominante
+E474,27,17 20 21 27 37,57.5,volatil-neutra,2-7,C,1,1,exacto,5,observacion,2→7 en transición
+E475,66,56 60 62 64 66,61.0,solar-neutral,6-6,B,1,1,exacto,5,apuesta_leve,6 doble estable
+E476,41,31 40 41 51 61,59.0,solar-media,4-1,B,1,1,exacto,5,apuesta_leve,4→1 estable
+E477,5,05 10 12 15 25,54.5,activador-debil,0-5,C,1,1,exacto,5,observacion,5 aislado
+E478,88,78 81 83 88 98,67.0,tormentosa-solar,8-8,A,1,1,exacto,5,apuesta_fuerte,8 doble en cima
+E479,12,02 10 11 12 22,55.5,neutral-frio,1-2,C,1,1,exacto,5,observacion,1→2 en clima frío
+E480,94,84 88 90 92 94,69.0,tormentosa-altisima,9-4,A,1,1,exacto,5,apuesta_fuerte,9→4 dominante
+E481,19,09 11 17 19 29,58.0,activador-media,1-9,B,1,1,exacto,5,apuesta_leve,1→9 estable
+E482,21,11 18 20 21 31,56.0,neutral-frio,2-1,C,1,1,exacto,5,observacion,2→1 suave
+E483,62,52 60 61 62 72,63.0,neutral-activado,6-2,A,1,1,exacto,5,apuesta_leve,6→2 ordenado
+E484,55,45 50 51 55 65,59.5,solar-lineal,5-5,B,1,1,exacto,5,apuesta_leve,5 doble
+E485,54,44 48 50 54 64,59.5,solar-neutral,5-4,B,1,1,exacto,5,apuesta_leve,5→4 estable
+E486,11,01 10 11 21 31,58.5,activador-lineal,1-1,B,1,1,exacto,5,apuesta_leve,1 consistente
+E487,25,15 20 21 25 35,56.5,activador-frio,2-5,C,1,1,exacto,5,observacion,2→5 transición
+E488,50,40 42 45 50 60,59.5,solar-lineal,5-0,B,1,1,exacto,5,apuesta_leve,5→0 ordenado
+E489,28,18 20 22 24 28,58.0,neutral-estructurado,2-8,B,1,1,exacto,5,apuesta_leve,2→8 sólido
+E490,62,52 60 61 62 72,63.0,neutral-activado,6-2,A,1,1,exacto,5,apuesta_leve,6→2 patrón activado estable
