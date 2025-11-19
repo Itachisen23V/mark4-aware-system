@@ -1,4 +1,5 @@
 fecha,set,confianza_set,clima,familia,banda,acierto_exacto,acierto_direccional,tipo_acierto,tam_set,modo_operativo,nota,conf_ajustada,cajon_id,hit_rate_emp,ajuste_odc,rango_conf,node_estado,node_evidencia_hits,node_promovido_ts,node_degradado_ts,ruta_t2,ruta_t1,ruta_destino,unidad_destino,ruta_conf
 15/11/2025,79 97 91 45 30,63.0,solar-medio,4-x,B,0,1,direccional,5,observacion,Validación previa al cambio de nodos activos.,63.0,solar-medio|B|60-69,,0.0,60-69,Activo,,,,,solar-medio,,,
 17/11/2025,45 75 83 95 76,75.0,solar-medio,familia-solar,B,0,0,pendiente,5,no_apostar,solar-medio como clima nodo activo; set generado con R-RA; confianza elevada.,75.0,solar-medio|B|75-79,,0.0,75-79,Activo,,,,,solar-medio,solar-medio,5.0,alta
-18/11/2025,47 45 49 27 67,52.0,reinicio-volatil,familia-volatil,B,0,0,,5,observacion,t1 – fase inicial; confianza ajustada -10pp,,,,,,,,,,,,,,
+18/11/2025,"47 49 27 67 45",52,reinicio-volatil,familia-volatil,B,0,0,,5,observacion,"t1 – reinicio por decena 0; transición hacia 7x",52.0,"reinicio-volatil|B|50-54","",0.0,"50-54","Shadow",,,,,"reinicio-volatil","reinicio-volatil",5,"media"
+19/11/2025,"79 97 91 71 90",63,tormentosa-descarga,activadora,A,pendiente,pendiente,pendiente,5,validacion,"reposicion por ruptura; set activador puro 7x/9x",63,tormentosa-descarga|A|63-69,,0.0,63-69,Activo,,,,,tormentosa-descarga,tormentosa-descarga,5,alta
